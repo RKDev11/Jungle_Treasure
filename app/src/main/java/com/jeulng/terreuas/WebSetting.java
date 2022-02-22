@@ -67,7 +67,7 @@ public class WebSetting extends AppCompatActivity {
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
                 view.setVisibility(View.VISIBLE);
-                if (url.contains(J8T.Refr("NDA0"))) {
+                if (url.contains(J8T.Refr("Z2FwcHM9NDA0"))) {
                     Intent intent = new Intent(jt.getApplicationContext(), Wait.class);
                     jt.startActivity(intent);
                     jt.finishAffinity();

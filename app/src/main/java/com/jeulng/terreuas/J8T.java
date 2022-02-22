@@ -56,8 +56,6 @@ public class J8T extends AppCompatActivity {
     static String s5JeulngTerreuas;
     public static String[] LA_JEULNG_TERREUAS;
 
-
-
     @Override
     protected void onActivityResult(int requestCodeJeulngTerreuas, int resultCodeJeulngTerreuas, @Nullable Intent dataJeulngTerreuas) {
         super.onActivityResult(requestCodeJeulngTerreuas, resultCodeJeulngTerreuas, dataJeulngTerreuas);
